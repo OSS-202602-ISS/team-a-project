@@ -8,7 +8,7 @@ Add one row per meaningful use. Keep it honest and short.
 
 | Date | Who | Tool | What you asked for | What you did with the answer |
 |---|---|---|---|---|
-| 2026-MM-DD | \<name\> | \<ChatGPT / Gemini / Copilot / course assistant\> | "Explain this pandas KeyError" | Understood the cause, renamed the column myself |
+| | 2026-11-26 | Hossen Fahad | ChatGPT | "Help implement filter_records() and summarize() in src/process.py" | Reviewed the suggested code, understood the functions, and verified them using pytest and the main program |
 | | | | | |
 
 ## The rule you are graded on
