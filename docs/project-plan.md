@@ -16,20 +16,18 @@ this file:
 
 ## 1. The tool
 
-- **Name**: \<project name\>
-- **One sentence**: \<what it does, for whom\>
-- **Category**: design / development / management / operations automation / data processing / security
-- **Track**: A only / A + B (keep one)
-  - A = required for every team: a small tool built with whitelist libraries (fill the two blanks)
-  - B = challenge, optional: Track A plus one extension of your own tool
+- **Name**: Lost and Found Tracker
+- **One sentence**: A tool that helps students find lost items by showing a list of items that have not been collected.
+- **Category**: data processing
+- **Track**: A only
 
 ## 2. Scope - input, one processing step, output
 
 | | Our project |
 |---|---|
-| **Input** | \<file, values, or API response - be specific\> |
-| **Processing step** | \<the one decision or calculation the tool makes\> |
-| **Output** | \<terminal table / Excel file / log file - what the user sees\> |
+| **Input** | lost_items.csv (item name, location, date, status) |
+| **Processing step** | Read the CSV file and find items that have not been collected |
+| **Output** | A list of uncollected items shown on the screen |
 
 **Definition of done**: one run command, one input, one output result.
 Anything beyond that is track B, not the baseline.
@@ -38,7 +36,8 @@ Anything beyond that is track B, not the baseline.
 
 | Library | Why we need it | On the whitelist? |
 |---|---|---|
-| \<library\> | \<reason\> | yes / ask instructor |
+| pandas | reads and filters lost_items.csv | yes |
+| rich | shows the results clearly on the screen | yes |
 
 One row for each library. For example: `| pandas | reads servers.csv | yes |`
 
@@ -52,10 +51,10 @@ this table.
 
 | Role | Who |
 |---|---|
-| PM | |
-| Developer | |
-| Documentation | |
-| Reviewer | |
+| PM | @crisdinatamang123-del |
+| Developer | @rekha2059 |
+| Documentation | @rekha2059 |
+| Reviewer | @rekha2059 |
 
 ## 5. Schedule
 
